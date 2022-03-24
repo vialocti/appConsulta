@@ -2,7 +2,11 @@ import React from 'react'
 
 const VistaCHtable = () => {
   return (
-    <div>VistaCHtable</div>
+      
+    <div>
+        <h1>VistaCHtable</h1>
+        <p></p>
+    </div>
   )
 }
 
