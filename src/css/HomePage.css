@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+/*
+.container{
+    background-color:azure;
+   
+    display:flex-box;
+    flex-direction: column;
+    flex-wrap: wrap;/*warp*/
+    /*flex-flow: row wrap; combina los de arriba
+    
+    justify-content: flex-start;
+    align-items: center;
+}
+.item{
+    border: 1px solid black;
+    height: 30%;
+    background-color:blue;
+    
+}
+*/
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex-grow: 1;
+}
+.titulares{
+    padding: 1rem;
+    background-color:black;
+    color: white;
+}
