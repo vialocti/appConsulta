@@ -13,7 +13,7 @@ const NavBar = () => {
       <div className="navbar-nav">
         <a className="nav-link active" aria-current="page" href="/">Inicio</a>
         <a className="nav-link" href="/consulta">Horario de Consulta</a>
-        <a className="nav-link" href="#">Mensages</a>
+        <a className="nav-link" href="/">Mensages</a>
       
       </div>
     </div>
